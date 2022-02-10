@@ -1,3 +1,52 @@
+.header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  width: 76px;
+  height: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+
+  margin-left: 24px;
+  margin-right: 275px;
+  margin-top: 58px;
+  margin-bottom: 640px;
+}
+
+.vector1 {
+  border: 2px solid #acb7c3;
+  width: 16px;
+  height: 0px;
+  margin-left: 323px;
+  margin-right: 36px;
+  margin-top: 63px;
+  margin-bottom: 655px;
+}
+
+.vector2 {
+  border: 2px solid #acb7c3;
+  width: 16px;
+  height: 0px;
+  margin-left: 323px;
+  margin-right: 36px;
+  margin-top: 68px;
+  margin-bottom: 650px;
+}
+
+.vector3 {
+  border: 2px solid #acb7c3;
+  width: 16px;
+  height: 0px;
+  margin-left: 323px;
+  margin-right: 36px;
+  margin-top: 73px;
+  margin-bottom: 645px;
+}
+
 .heading {
   color: #172b4d;
   font-family: Poppins;
@@ -5,6 +54,10 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
+  display: flex;
+  align-items: center;
+  width: 327px;
+  height: 150px;
   display: flex;
   align-items: center;
 
@@ -21,6 +74,8 @@
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  width: 327px;
+  height: 146px;
 
   margin-left: 24px;
   margin-right: 24px;
@@ -35,6 +90,8 @@
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  width: 117px;
+  height: 24px;
 
   margin-left: 24px;
   margin-right: 234px;
@@ -43,15 +100,78 @@
 }
 
 .twitter {
-  position: absolute;
-  left: 6.4%;
-  right: 88.27%;
-  top: 77.81%;
-  bottom: 18.88%;
   background: #505f79;
+  width: 19.99;
+  height: 19.96;
 
   margin-left: 24px;
   margin-right: 331.01px;
   margin-top: 562px;
   margin-bottom: 136.04px;
+}
+
+.li1 {
+  background: #505f79;
+  width: 4.97;
+  height: 13.72;
+
+  margin-left: 63px;
+  margin-right: 360.03px;
+  margin-top: 568.28px;
+  margin-bottom: 136px;
+}
+
+.lidot {
+  background: #505f79;
+  width: 4.97px;
+  height: 4.97px;
+
+  margin-left: 63px;
+  margin-right: 307.03px;
+  margin-top: 562px;
+  margin-bottom: 151.03px;
+}
+
+.lin {
+  background: #505f79;
+  width: 12.71px;
+  height: 16.97px;
+
+  margin-left: 70.29px;
+  margin-right: 292px;
+  margin-top: 565.03px;
+  margin-bottom: 136px;
+}
+
+.msign {
+  background: #505f79;
+  width: 20px;
+  height: 16px;
+
+  margin-left: 103px;
+  margin-right: 252px;
+  margin-top: 564px;
+  margin-bottom: 138px;
+}
+
+.github {
+  background: #505f79;
+  width: 17.99px;
+  height: 20px;
+
+  margin-left: 143px;
+  margin-right: 214px;
+  margin-top: 562px;
+  margin-bottom: 136px;
+}
+
+.finger {
+  background: #505f79;
+  width: 14.17px;
+  height: 20px;
+
+  margin-left: 180px;
+  margin-right: 180.83px;
+  margin-top: 562px;
+  margin-bottom: 136px;
 }
