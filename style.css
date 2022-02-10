@@ -1,0 +1,57 @@
+.heading {
+  color: #172b4d;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 206px;
+  margin-bottom: 362px;
+}
+
+.paragraph {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 368px;
+  margin-bottom: 204px;
+}
+
+.line {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+
+  margin-left: 24px;
+  margin-right: 234px;
+  margin-top: 526px;
+  margin-bottom: 168px;
+}
+
+.twitter {
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+  background: #505f79;
+
+  margin-left: 24px;
+  margin-right: 331.01px;
+  margin-top: 562px;
+  margin-bottom: 136.04px;
+}
