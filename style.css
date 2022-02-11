@@ -31,7 +31,6 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
 }
 
 .menu-icon {
@@ -43,7 +42,6 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
   align-self: center;
 }
 
@@ -52,7 +50,6 @@
   display: flex;
   justify-content: left;
   flex-flow: column;
-  align-items: left;
   min-height: 100vh;
   margin-block-end: 20rem;
   margin: auto;
@@ -153,28 +150,26 @@
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  /*order: 1;
-  flex-grow: 0;*/
-  margin: 12px 0px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .line {
   position: static;
   width: 117px;
   height: 24px;
-  left: 0px;
-  top: 0px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  align-items: left;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 8px;
+  margin: 8px;
 }
 
 .social-media-icons {
@@ -183,14 +178,11 @@
   height: 20px;
   left: 24px;
   top: 470px;
-  display: inline;
   color: #505f79;
   align-content: space-around;
-
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
 }
 
 .twitter {
