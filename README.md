@@ -1,5 +1,5 @@
 # Portfolio-Website
-It is my portfolio website
+It is a portfolio mobile version skeleton
 
 ## Built With
 
@@ -7,7 +7,7 @@ HTML, CSS
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](http://localhost:5500/)
 
 ## Authors
 
