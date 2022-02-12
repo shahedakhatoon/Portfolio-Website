@@ -46,6 +46,9 @@
 }
 
 .heading {
+  background-image: url(src/header-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   display: inline;
   display: flex;
   justify-content: left;
@@ -53,74 +56,6 @@
   min-height: 100vh;
   margin-block-end: 20rem;
   margin: auto;
-}
-
-.ellipse3 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 323px;
-  top: 72.24px;
-}
-
-.rectangle4 {
-  position: absolute;
-  width: 95.58px;
-  height: 22.02px;
-  left: 294px;
-  top: 55.79px;
-  background: #ebebff;
-  transform: rotate(-30deg);
-}
-
-.ellipse5 {
-  position: absolute;
-  width: 11px;
-  height: 10px;
-  left: 132.98px;
-  top: 55.81px;
-  background: #cbcdff;
-  transform: rotate(52.97deg);
-}
-
-.rectangle7 {
-  position: absolute;
-  width: 26.46px;
-  height: 4.73px;
-  left: 127.18px;
-  top: 51.59px;
-  background: #6070ff;
-  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
-}
-
-.ellipse11 {
-  position: absolute;
-  width: 38.5px;
-  height: 19.25px;
-  left: -16px;
-  top: 51.47px;
-  background: #6070ff;
-  transform: rotate(-156.88deg);
-}
-
-.ellipse12 {
-  position: absolute;
-  width: 24.14px;
-  height: 12.07px;
-  left: 341.76px;
-  top: 406.69px;
-  background: #6070ff;
-  transform: rotate(-176.08deg);
-}
-
-.ellipse13 {
-  position: absolute;
-  width: 30.1px;
-  height: 30.1px;
-  left: 332.18px;
-  top: 424.44px;
-  background: #ebebff;
-  transform: rotate(69.41deg);
 }
 
 .title {
