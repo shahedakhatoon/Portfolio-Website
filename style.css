@@ -1,0 +1,374 @@
+.body {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  border: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.logo {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-icon {
+  position: static;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-self: center;
+}
+.heading {
+  background-image: url(src/header-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline;
+  display: flex;
+  justify-content: left;
+  flex-flow: column;
+  min-height: 100vh;
+  margin-block-end: 20rem;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 88px;
+  justify-content: center;
+  padding: 60px 24px;
+  list-style-type: none;
+}
+
+.project {
+  padding: 16px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+}
+
+.description {
+  padding: 16px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin-top: -10px;
+  margin-left: -12px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: left;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  margin-top: -30px;
+}
+.infoContainer {
+  display: flex;
+  margin-left: -60px;
+  list-style-type: none;
+}
+.role {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.role::before {
+  content: url(/images/circle.svg);
+  width: 14px;
+  padding-right: 5px;
+}
+
+.year {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year::before {
+  content: url(/images/circle.svg);
+  width: 14px;
+  padding-right: 5px;
+}
+
+.projectDescription {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: -10px;
+  line-height: 24px;
+  color: #344563;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.tags {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 29px -10px;
+}
+
+.tagsFlex {
+  display: flex;
+  margin-left: -40px;
+}
+
+.html {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.css {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.javascript {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+button {
+  appearance: auto;
+  text-rendering: auto;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+.about {
+  position: static;
+  width: 327px;
+  height: 101px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.aboutMyself {
+  position: static;
+  width: 327px;
+  height: 101px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#About {
+  display: inline;
+  display: flex;
+  justify-content: left;
+  flex-flow: column;
+  min-height: 100vh;
+  margin-block-end: 20rem;
+  margin: auto;
+  background-size: contain;
+}
+
+.title {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 52px;
+  text-align: left;
+  width: 60vw;
+}
+
+#info {
+  color: #172b4d;
+  display: block;
+  font-size: 40px;
+}
+
+.paragraph {
+  display: flex;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.aboutConnect {
+  position: static;
+  width: 117px;
+  height: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social-media-icons {
+  position: static;
+  width: 170.17px;
+  height: 20px;
+  left: 24px;
+  top: 470px;
+  color: #505f79;
+  align-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.twitter {
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+}
+
+.linkedin {
+  position: absolute;
+  left: 18.74%;
+  right: 77.87%;
+  top: 77.87%;
+  bottom: 18.87%;
+}
+
+.msign {
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 78.15%;
+  bottom: 19.21%;
+}
+
+.github {
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
+
+.finger {
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
