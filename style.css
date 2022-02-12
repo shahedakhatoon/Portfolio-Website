@@ -173,6 +173,31 @@ button {
   display: flex;
   align-items: center;
   color: #172b4d;
+}
+
+.container {
+  display: flex;
+  border: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.logo {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -195,7 +220,22 @@ button {
   flex-grow: 0;
 }
 
-#About {
+.menu-icon {
+  position: static;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-self: center;
+}
+
+.heading {
+  background-image: url(src/header-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   display: inline;
   display: flex;
   justify-content: left;
@@ -203,10 +243,9 @@ button {
   min-height: 100vh;
   margin-block-end: 20rem;
   margin: auto;
-  background-size: contain;
 }
 
-.workstitle {
+.title {
   color: #172b4d;
   font-size: 40px;
   font-weight: bold;
@@ -240,6 +279,17 @@ button {
   width: 117px;
   height: 24px;
   font-family: Poppins, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.line {
+  position: static;
+  width: 117px;
+  height: 24px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -248,6 +298,7 @@ button {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin: 8px;
 }
 
 .social-media-icons {
