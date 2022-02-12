@@ -245,15 +245,6 @@ button {
   margin: auto;
 }
 
-.title {
-  color: #172b4d;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 52px;
-  text-align: left;
-  width: 60vw;
-}
-
 #info {
   color: #172b4d;
   display: block;
